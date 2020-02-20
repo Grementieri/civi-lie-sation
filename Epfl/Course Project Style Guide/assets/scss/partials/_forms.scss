@@ -1,0 +1,99 @@
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+.input {
+  font-size: 1em;
+  color:#72797e;
+}
+
+.input__label {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 0 .5em;
+}
+
+.input__field {
+  background-color: #fff;
+  border: 1px solid #e3e5e9;
+  padding: .5em;
+  font-size: inherit;
+  width:100%;
+}
+
+.create-goal .input-group__field {
+  display: none;
+}
+
+@include tablet {
+  .input__field {
+    background-color: #fff;
+    border: 1px solid #e3e5e9;
+    padding: 1em;
+    font-size: inherit;
+    width:100%;
+  }
+}
+
+@include desktop {
+  .input__field {
+    background-color: #fff;
+    border: 1px solid #e3e5e9;
+    padding: 1.6em;
+    font-size: inherit;
+    width: 100%;
+  }
+}
+
+input__field:focus {
+  border-color: #72787e;
+}
+
+.input__row {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@include tablet {
+  .input__row {
+    font-size: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 2em;
+  }
+}
+
+@include desktop {
+  .input__row {
+    font-size: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 2em;
+  }
+}
+
+.input__row .btn {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  border-left-width: 0;
+}
+
+.input--cta .input__field {
+  border-color: #2c9cf2;
+}

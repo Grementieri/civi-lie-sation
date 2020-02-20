@@ -1,0 +1,74 @@
+.btn {
+  font-size: 1rem;
+  background: $white;
+  color: $black;
+  padding:  .5em;
+  margin: 0;
+  border: 1px solid $gray-4;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+    background-color: $gray-4;
+  }
+}
+
+@include tablet {
+  .btn {
+    font-size: .8em;
+    background: $white;
+    color: $black;
+
+    padding: 1.3em;
+    margin: 0;
+
+    border: 1px solid $gray-4;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+@include desktop {
+.btn {
+  font-size: 1em;
+  background: $white;
+  color: $black;
+
+  padding: 1.6em;
+  margin: 0;
+
+  border: 1px solid $gray-4;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  }
+}
+
+.btn--cta {
+  background-color: $primary-color;
+  color: $white;
+  border: 1px solid $primary-color;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken($primary-color, 20);
+    border: darken($primary-color, 15);
+  }
+}

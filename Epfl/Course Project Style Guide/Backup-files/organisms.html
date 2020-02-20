@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="en" class ="no-js">
+<!--head section-->
+<head>
+  <meta charset="utf-8" />
+  <title>Course Project Style Guide, EPFL Web Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if !IE]><!-->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/style-guide-project-css.css" />
+  <!--<![endif]-->
+  <!--[if IE]>
+   <link href="stylesheet" type="text/css" href="CSS\universal-ie9.css" />
+  <![endif]-->
+  <script src="assets/js/modernizr-custom.js"></script>
+</head>
+<!--body section-->
+<body>
+<header class="global-header">
+  <div class="content-wrapper">
+      <div class="logo">
+        <a href="/"><span><em>My</em> Bucket List - Style Guide</span></a>
+      </div>
+          <form class="global-search-input-field" method="get">
+            <div class="input input--cta">
+              <div class="input__row">
+                <label class="input__label" for="global-search"></label>
+                <input id="global-search" class="input__field" placeholder="e.g. diving with sharks" type="text"/>
+                <button class="btn btn--cta" type="button">search</button>
+              </div>
+            </div>
+          </form>
+    <nav class="organisms-nav">
+      <ul class="global-navigation">
+        <li class="atom"><a href="atoms.html" style="text-decoration: none;"><h5>Atoms</h5></a></li>
+        <li class="molecules"><a href="molecules.html" style="text-decoration: none;"><h5>Molecules</h5></a></li>
+        <li class="organisms"><a href="organisms.html" style="text-decoration: none;"><h5>Organisms</h5></a></li>
+        <li class="has-dropdown">
+          <a href="#"><img src="assets/images/MG_small.png" alt="User's avatar illustration" /></a>
+          <ul class="dropdown">
+            <li><a href="#">Edit profile</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <main class="organisms-main">
+    <div class="organisms-content-wrapper">
+      <ul class="content">
+        <li class="text-title"><h2>Organisms</h2></li>
+          <li class="text-element"></li>
+            <li class="text-kind"><h2>1 - Header organism</h2></li>
+              <span class="line-break"></span>
+<!-- The following is not a second "header" but only an example shown here ("global-header" being a "molecule") -->
+            <div class="global-header">
+              <div class="content-wrapper">
+                  <div class="logo">
+                    <a href="/"><span><em>My</em> Bucket List - Style Guide</span></a>
+                  </div>
+                      <form class="global-search-input-field" method="get">
+                        <div class="input input--cta">
+                          <div class="input__row">
+                            <label class="input__label" for="global-search"></label>
+                            <input id="search" class="input__field" placeholder="e.g. diving with sharks" type="text"/>
+                            <button class="btn btn--cta" type="button">search</button>
+                          </div>
+                        </div>
+                      </form>
+                <nav class="organisms-nav">
+                  <ul class="global-navigation">
+                    <li class="atoms"><a href="atoms.html" style="text-decoration: none;"><h5>Atoms</h5></a></li>
+                    <li class="molecules"><a href="molecules.html" style="text-decoration: none;"><h5>Molecules</h5></a></li>
+                    <li class="organisms"><a href="organisms.html" style="text-decoration: none;"><h5>Organisms</h5></a></li>
+                    <li class="has-dropdown">
+                      <a href="#"><img src="assets\images\MG_small.png" alt="User's avatar illustration" /></a>
+                      <ul class="dropdown">
+                        <li><a href="#">Edit profile</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+<!-- End of example ("global-header" being a "molecule")-->
+        <li class="text-kind"><h2>2 - Card organism</h2></li>
+          <span class="line-break"></span>
+          <span class="line-break"></span>
+            <li class="card">
+              <a class="card__thumb" href="ideas/See-the-northern-lights.html">
+                <img src="assets/images/northern-lights-small.jpg" alt="House at a lake with northern lights in the night sky"/>
+                  <div class="card__intro">
+                      <h3 class="card__title">See the northern lights</h3>
+                      <span>3738 people are doing this</span>
+                  </div>
+              </a>
+            </li>
+<!-- Here comes another example. An excerpt of /atoms.html (excerpt of atoms page) -->
+        <li class="text-kind"><h2>3 - Main organism</h2></li>
+          <span class="line-break"></span>
+            <li><h3>Excerpt of the "atoms page": </h3></li>
+          <span class="line-break"></span>
+            <div class="excerpt">
+              <ul class="content">
+                <li class="text-title"><h2>Atoms</h2></li>
+                <li class="text-kind"><h2>1 - Main Root</h2>
+                <li class="text-element">
+                  <span class="line-break"></span>
+                  <h3><em>&lt;html&gt;</em>-atom</h3></li>
+                <li class="text-kind"><h2>2 - Document Metadata</h2>
+                <li class="text-element">
+                  <span class="line-break"></span>
+                  <h3><em>&lt;head&gt;</em>-atom, <em>&lt;style&gt;</em>-atom, <em>&lt;meta&gt;</em>-atom, <em>&lt;link&gt;</em>-atom</h3></li>
+                <li class="text-kind"><h2>3 - Sectioning Root</h2>
+                <li class="text-element">
+                  <span class="line-break"></span>
+                  <h3><em>&lt;body&gt;</em>-atom</h3></li>
+            </div>
+<!-- End of example (excerpt of atoms page) -->
+<!-- Here comes another example: the footer molecule (footer molecule) -->
+        <div class="text-kind"><h2>4 - Footer organism</h2></li>
+          <span class="line-break"></span>
+            <footer class="global-footer">
+              <div class="footer-example">
+                  <ul>
+                    <li class="logo"><a href="/"><span><em>My</em> Bucket List</span></a></li>
+                    <li><a href="about.html" style="text-decoration: none;">About</a></li>
+                    <li><a href="styleguide.html" style="text-decoration: none;">Style Guide</a></li>
+                    <li><a href="terms.html" style="text-decoration: none;">Terms of use</a></li>
+                  </ul>
+                <p>&copy; EPFL 2017</p>
+              </div>
+            </footer>
+        </div>
+<!-- End of example footer molecule (footer molecule) -->
+    </div>
+  </main>
+<!-- footer section-->
+<footer class="global-footer">
+  <div class="content-wrapper">
+      <ul>
+        <li class="logo"><a href="/"><span><em>My</em> Bucket List</span></a></li>
+        <li><a href="about.html" style="text-decoration: none;">About</a></li>
+        <li><a href="styleguide.html" style="text-decoration: none;">Style Guide</a></li>
+        <li><a href="terms.html" style="text-decoration: none;">Terms of use</a></li>
+      </ul>
+    <p>&copy; EPFL 2017</p>
+  </div>
+</footer>
+</body>
+</html>

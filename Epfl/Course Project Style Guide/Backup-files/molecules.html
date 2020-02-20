@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en" class ="no-js">
+<!--head section-->
+<head>
+  <meta charset="utf-8" />
+  <title>Course Project Style Guide, EPFL Web Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if !IE]><!-->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/style-guide-project-css.css" />
+  <!--<![endif]-->
+  <!--[if IE]>
+   <link href="stylesheet" type="text/css" href="CSS\universal-ie9.css" />
+  <![endif]-->
+  <script src="assets/js/modernizr-custom.js"></script>
+</head>
+<!--body section-->
+<body>
+<header class="global-header">
+  <div class="content-wrapper">
+      <div class="logo">
+        <a href="/"><span><em>My</em> Bucket List - Style Guide</span></a>
+      </div>
+          <form class="global-search-input-field" method="get">
+            <div class="input input--cta">
+              <div class="input__row">
+                <label class="input__label" for="global-search"></label>
+                <input id="global-search" class="input__field" placeholder="e.g. diving with sharks" type="text"/>
+                <button class="btn btn--cta" type="button">search</button>
+              </div>
+            </div>
+          </form>
+    <nav class="molecules-nav">
+      <ul class="global-navigation">
+        <li class="atoms"><a href="atoms.html" style="text-decoration: none;"><h5>Atoms</h5></a></li>
+        <li class="molecules"><a href="molecules.html" style="text-decoration: none;"><h5>Molecules</h5></a></li>
+        <li class="organisms"><a href="organisms.html" style="text-decoration: none;"><h5>Organisms</h5></a></li>
+        <li class="has-dropdown">
+          <a href="#"><img src="assets/images/MG_small.png" alt="User's avatar illustration" /></a>
+          <ul class="dropdown">
+            <li><a href="#">Edit Profile</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <main class="molecules-main">
+    <div class="molecules-content-wrapper">
+      <ul class="content">
+        <li class="text-title"><h2>Molecules</h2></li>
+        <li class="text-element">
+          <li class="text-kind"><h2>1 - Text search</h2>
+            <br/>
+              <form class="global-search-input-field" method="get">
+                <input id="search" class="input__field" placeholder="e.g. diving with sharks" type="text"/>
+              </form>
+          </li>
+        <li class="text-kind"><h2>2 - Text search with cta-button</h2>
+          <br/>
+            <div class="input input--cta">
+              <div class="input__row">
+                <label class="input__label" for="global-search"></label>
+                <input id="global-search__duplicate" class="input__field" placeholder="e.g. diving with sharks" type="text"/>
+                <button class="btn btn--cta" type="button">search</button>
+              </div>
+            </div>
+        </li>
+        <li class="text-kind"><h2>3 - Hyperlink-text</h2>
+          <br/>
+            <a href="atoms.html" style="text-decoration: none"><h3>Go to atoms-page</h3></a>
+        </li>
+        <li class="text-kind"><h2>4 - Add image</h2>
+          <br/>
+            <div class="create-goal">
+              <label class="input-group__image" for="goal-image">choose file</label>
+              <input id="goal-image" class="input-group__field" type="file" name="goal-image" />
+            </div>
+        </li>
+        <li class="text-kind"><h2>5 - Enter email address</h2>
+          <br/>
+            <div class="login">
+              <label class="input-group__email" for="login-email">Enter Email address</label>
+              <input id="login-email" class="input-group__field" type="email" name="login email" placeholder="yourname@xyz.com" required />
+            </div>
+        </li>
+        <li class="text-kind"><h2>6 - Description field</h2>
+          <br/>
+            <div class="input-description">
+              <label class="input-group__description" for="goal-description">Enter description text here </label>
+              <textarea id="goal-description" class="input-group__field"></textarea>
+            </div>
+        </li>
+        <li class="text-kind"><h2>7 - Like button</h2>
+          <br/>
+            <form class="card__footer" action="idea" method="post">
+              <button type="submit" name="action" value="like">Like</button>
+            </form>
+        </li>
+      </ul>
+    </div>
+  </main>
+<!-- footer section-->
+<footer class="global-footer">
+  <div class="content-wrapper">
+      <ul>
+        <li class="logo"><a href="/"><span><em>My</em> Bucket List</span></a></li>
+        <li><a href="about.html" style="text-decoration: none;">About</a></li>
+        <li><a href="styleguide.html" style="text-decoration: none;">Style Guide</a></li>
+        <li><a href="terms.html" style="text-decoration: none;">Terms of use</a></li>
+      </ul>
+    <p>&copy; EPFL 2017</p>
+  </div>
+</footer>
+</body>
+</html>

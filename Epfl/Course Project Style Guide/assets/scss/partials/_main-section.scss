@@ -1,0 +1,68 @@
+.content {
+  list-style: none;
+}
+
+.content em {
+  font-style: normal;
+  background-color: $gray-4;
+}
+
+.content .text-kind h2 {
+  font-size: 40px;
+  color: $black;
+  border-bottom: solid;
+  border-width: thin;
+  border-bottom-color: $gray-3;
+  margin: 1.2em 0 0 0;
+}
+
+.content .text-title h2 {
+  font-size: 65px;
+  color: $primary-color;
+  font-weight: 100;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+            margin: 1em 0 1em 0;
+}
+
+.content .text-kind h2, h3 {
+  margin: 1em 0 0 0;
+}
+
+.content .text-element h3 {
+  margin: .5em 0 1em 0;
+  font-size: 1.5em;
+  line-height: 1.3em
+}
+
+.content .logo em {
+  font-style: normal;
+  color: $primary-color;
+  background-color: $white;
+}
+
+.content .line-break::after {
+  content: "\A";
+  white-space: pre;
+}
+
+.footer-example em {
+  font-style: normal;
+  color: $primary-color;
+  background-color: $black !important;
+}
+
+.excerpt {
+  border: solid;
+  border-color: $gray-3;
+  border-width: thin;
+  padding: 1em;
+  -webkit-box-shadow: 0 0 10px $gray-3;
+  -moz-box-shadow: 0 0 10px $gray-3;
+  box-shadow: 0 0 10px $gray-3;
+  margin: 0 1.6rem 1.6rem 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}

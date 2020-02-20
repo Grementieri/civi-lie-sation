@@ -1,0 +1,17 @@
+.global-footer, .footer-example {
+  background-color: $black;
+  color: $gray-3;
+  padding: 3em 0 3em;
+}
+
+.global-footer a, .footer-example a {
+  color: inherit;
+}
+
+.global-footer li, .footer-example li {
+  list-style: none;
+}
+
+.global-footer p, .footer-example p {
+  margin-top: 3em;
+}

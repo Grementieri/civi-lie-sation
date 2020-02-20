@@ -1,0 +1,38 @@
+.content-wrapper {
+  margin: 0 auto;
+  padding: 0 1em;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap;
+}
+
+.content-wrapper .footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap;
+}
+
+@include tablet {
+  .content-wrapper {
+    max-width: 50em;
+    margin: 0 auto;
+      -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+  }
+}
+
+@include desktop {
+  .content-wrapper {
+    max-width: 96em;
+    margin: 0 auto;
+      -webkit-flex-flow:  nowrap;
+        -ms-flex-flow: nowrap;
+            flex-flow: nowrap;
+  }
+}
